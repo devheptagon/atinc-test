@@ -3,6 +3,9 @@
   min-height: 100px;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -34,7 +37,7 @@
 }
 
 .postView {
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   border-radius: 8px;
   padding: 8px 16px;
   margin: 16px 0;
@@ -44,7 +47,6 @@
   margin: 8px 0 0 0;
   padding: 0;
 }
-
 
 fieldset {
   border: 1px solid blue;
